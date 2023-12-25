@@ -1,5 +1,11 @@
 export interface IStation{
-    stationID: string;
+    stationID: number;
     stationName: string;
     stationCode: string;
+}
+
+export interface IStationResponse{
+    message: string;
+    result: Boolean;
+    data:any;
 }
